@@ -1,6 +1,4 @@
-# primeiroSite
-meu primeiro site
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -86,4 +84,44 @@ button{
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
+
+.botao-entrar {
+  margin-top: 25px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
 }
+
+.botao-entrar:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(37, 117, 252, 0.35);
+}
+
+
+.botao-limpar {
+    margin-top: 10px;
+    background-color: #ff5a5f;
+}
+
+ .botao:hover(
+ background-color: #d94348;
+ )
+
+ #mensagem{
+    min: height 24px;
+    margin: top 18px;
+    text-align: center;
+    font-weight:bold;
+ }
+
+ .sucesso{
+    color: #28a745;
+    background-color: #edff7e8
+    padding: 10px;
+    border-radius: 8px;
+ }
+
+ .erro{
+    color: #dc2828;
+    background-color: #ffe1e1;
+    padding: 10px;
+    border-radius: 8px;
+ }
